@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
+.essaText {
+    font-weight: 600;
+}
+.headerContainer {
+    padding: 40px 90px;
+}
 .navbar {
-    background-color: black;
     min-height: 3.5rem;
+    background-color: #F6D23C;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px;
+    font-family: "AlanSans";
+}
+h1, h2, h3, p{
+    font-family: 'Alan Sans';
+    color: #41444B;
 }
